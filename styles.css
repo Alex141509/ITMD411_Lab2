@@ -63,10 +63,6 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-	display: grid;
-	grid-template-columns: repeat(4,1);
-	gap: 20%;
-	grid-auto-rows: 100px;
 
 }
 
