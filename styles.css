@@ -63,6 +63,11 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-auto-rows: 100px;
+	gap: 20%;
+	align-items: stretch;
 
 }
 
@@ -72,10 +77,16 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
+	grid-column: 2 / span 2;
+    grid-row: 1 / span 3;
+	z-index: 2;
 
 }
 
 #grid-section2 .gridboxred {
+	grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+	z-index: 1;
 
 }
 
